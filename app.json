@@ -1,0 +1,49 @@
+{
+  "$schema": ".app/app.schema.json",
+  "title": "Celestial Mind",
+  "description": "A low entropy Garden.",
+  "editThisNote": {
+    "url": "https://github.com/stardoom4/eleventy-notes/edit/{{branch}}/{{file}}"
+  },
+  "customProperties": {
+    "properties": [
+      {
+        "path": "props",
+        "options": {
+          "date": {
+            "locale": "en-US"
+          }
+        }
+      }
+    ]
+  },
+  "sidebar": {
+    "links": [
+      {
+        "url": "https://github.com/rothsandro/eleventy-notes",
+        "label": "GitHub / Support",
+        "icon": "github"
+      }
+    ],
+    "notes": [
+      {
+        "pattern": "^/[^/]+$"
+      },
+      {
+        "pattern": "^/Wiki/",
+        "label": "Wiki",
+        "expanded": false,
+        "tree": {
+          "replace": {
+            "^/\\w+": ""
+          }
+        }
+      }
+    ]
+  },
+  "tags": {
+    "map": {
+      "dynamic-content": "dynamic content"
+    }
+  }
+}
