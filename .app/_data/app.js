@@ -11,7 +11,7 @@ module.exports = function () {
     description: "Notes app",
     ...custom,
     theme: {
-      color: "ruby",
+      color: "crimson",
       ...custom.theme,
     },
     customProperties: {
