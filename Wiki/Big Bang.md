@@ -1,4 +1,3 @@
-# Big Bnag 
 The Big Bang theory is the prevailing scientific explanation for the origin and evolution of the universe . According to this theory, the universe began as a singularity, a point of infinite density and temperature, approximately 13.8 billion years ago.
 
 ![BIg Bang](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/The_History_of_the_Universe.jpg/800px-The_History_of_the_Universe.jpg?20150308174449)
