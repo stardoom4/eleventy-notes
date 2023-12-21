@@ -1,0 +1,9 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+collections:
+  - name: "Wiki" # Used in routes, e.g., /admin/collections/blog
+    label: "Wiki" # Used in the UI
+    folder: "/Wiki" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
