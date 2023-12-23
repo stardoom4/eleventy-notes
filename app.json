@@ -1,7 +1,7 @@
 {
   "$schema": ".app/app.schema.json",
   "title": "Celestial Mind",
-  "description": "A low entropy Garden.",
+  "description": "A Digital Garden.",
   "editThisNote": {
     "url": "https://github.com/stardoom4/eleventy-notes/edit/{{branch}}/{{file}}"
   },
@@ -38,7 +38,12 @@
             "^/\\w+": ""
           }
         }
-      }
+      },
+      {
+        "pattern": "^/Q/",
+        "label": "Question And Answers",
+        "expanded": false
+      },
     ]
   },
   "tags": {
