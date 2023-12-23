@@ -43,7 +43,9 @@
         "pattern": "^/Q/",
         "label": "Question And Answers",
         "expanded": false
-      },
+      }
+        }
+      }
     ]
   },
   "tags": {
