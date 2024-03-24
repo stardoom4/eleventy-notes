@@ -1,7 +1,7 @@
 {
   "$schema": ".app/app.schema.json",
-  "title": "Celestial Mind",
-  "description": "A low entropy Garden.",
+  "title": "Celestial Entity",
+  "description": "A Digital Garden.",
   "editThisNote": {
     "url": "https://github.com/stardoom4/eleventy-notes/edit/{{branch}}/{{file}}"
   },
@@ -21,7 +21,7 @@
     "links": [
       {
         "url": "https://github.com/stardoom4/eleventy-notes",
-        "label": "GitHub / Support",
+        "label": "GitHub",
         "icon": "github"
       }
     ],
