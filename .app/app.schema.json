@@ -17,7 +17,7 @@
     "theme": {
       "type": "object",
       "description": "The configuration for the theme of the app",
-      "default": { "color": "sky" },
+      "default": { "color": "tomato" },
       "properties": {
         "color": {
           "type": "string",
